@@ -1,7 +1,7 @@
 #pragma once
 
 #define DEBUG               TRUE
-#define MAX_HEAP_SIZE       1024				    // SIZE: 1024 * 4 BYTES
+#define MAX_STACK_SIZE      1024				    // SIZE: 1024 * 4 BYTES
 #define MAX_INSTRUCTIONS    1024
 #define MAX_VARS            100                     // SIZE: 100 * 4 BYTES
 

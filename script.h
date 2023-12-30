@@ -31,7 +31,7 @@ public:
 		strcpy((char*)m_cScriptName, name);
 		try {
 			if (script::file_exists(name)) {
-				m_pStack = new int[MAX_HEAP_SIZE];
+				m_pStack = new int[MAX_STACK_SIZE];
 				m_pStackVars = new Token[MAX_VARS];
 				for (int i = 0; i < MAX_VARS; i++)
 					m_pStackVars[i].m_cToken = nullptr;
@@ -399,7 +399,7 @@ public:
 
 	// ACCESSORS
 	const char* getScriptName() { return m_cScriptName; }
-	int* getHeapStart() { return m_pStack; }
+	int* getStackPointer() { return m_pStack; }
 	bool isValidScript() { return m_bValidScript; }
 
 private:

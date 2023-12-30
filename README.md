@@ -1,5 +1,7 @@
 # About
 A Basic Script Interpreter written in C++. 
+
+# Scripts
 Every script has its own stack. For now you can only create INT variables.
 You can make your own scripts using the following opcodes: 
 - PUSH (push an element on the stack),

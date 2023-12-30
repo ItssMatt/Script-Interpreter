@@ -1,0 +1,8 @@
+PRINT system::newline
+INT a
+PUSH 10
+PUSH 59
+SUM a
+PRINT `(SUM SCRIPT) a = `
+PRINT a
+PRINT system::newline

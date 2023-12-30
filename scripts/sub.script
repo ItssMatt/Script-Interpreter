@@ -1,0 +1,7 @@
+PRINT system::newline
+INT b
+MOV b 30
+SUB b 10
+PRINT `(SUB SCRIPT) b = `
+PRINT b
+PRINT system::newline

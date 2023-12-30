@@ -1,0 +1,10 @@
+PRINT system::newline
+PUSH 5
+PUSH 6
+PUSH 5
+INT x
+SUM x
+SUB x 3
+PRINT `(SCRIPT_TEST) x = `
+PRINT x
+PRINT system::newline

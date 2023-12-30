@@ -1,0 +1,7 @@
+PRINT system::newline
+INT c
+MOV c 50
+MOV 60 c
+PRINT `(MOV SCRIPT) c = `
+PRINT c
+PRINT system::newline

@@ -120,12 +120,14 @@ public:
 	}
 
 	void executeInstructions() {
-		if (m_pInstructions == nullptr)
+		if (m_pInstructions == nullptr || !m_bValidScript)
 			return;
 
 		try {
 
 			for (int i = 0; i < MAX_VARS; i++) {
+				if (m_pInstructions[i].m_cToken == nullptr)
+					break;
 				switch (m_pStackVars[i].m_eInstruction)
 				{
 					// VAR_TYPES

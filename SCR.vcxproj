@@ -132,7 +132,7 @@
   <ItemGroup>
     <ClInclude Include="opcodes.h" />
     <ClInclude Include="utils.h" />
-    <ClInclude Include="script.h" />
+    <ClInclude Include="script.hpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="scripts\mov.script" />
